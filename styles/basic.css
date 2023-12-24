@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-main);
+  color: var(--color-main-black);
   font-size: 18px;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
@@ -19,13 +20,11 @@ body {
 
 ul {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: unset;
 }
 
 h1,

@@ -4,5 +4,7 @@
 
   --font-color-gray: #544b4b;
 
-  --color-main-black: #070707;
+  --color-main-black: #000;
+  --color-accent-blue: #005FA3;
+  --color-text:#222;
 }
