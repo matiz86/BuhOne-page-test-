@@ -37,12 +37,31 @@ p {
   margin: 0;
 }
 
+.bg-gray {
+  background: var(--bg-main-gray);
+}
+
+.section {
+  padding: 140px 0 140px;
+}
+
 .title {
   font-family: 'Merriweather', serif;
   color: var(--title-color);
   font-size: 48px;
   font-weight: 900;
   line-height: 144.555%;
+}
+
+.caption {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 138%;
+  color: var(--color-caption);
+}
+
+.top .caption {
+  margin: 0 0 40px;
 }
 
 .btn {
