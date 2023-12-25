@@ -6,5 +6,7 @@
 
   --color-main-black: #000;
   --color-accent-blue: #005FA3;
-  --color-text:#222;
+  --color-text: #222;
+  --title-color: #333;
+  --color-btn-title: #FFF;
 }

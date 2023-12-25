@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="index.css">
   <title>BuhOne</title>
 </head>
@@ -19,14 +20,14 @@
     <div class="container">
       <div class="header__wrap" aria-label="header wrap">
         <div class="header__logo" aria-label="header logo">
-          <img src="assets/webp/logo.svg" alt="#">
+          <img src="assets/icon/logo.svg" alt="#">
           <span>BuhOne</span>
         </div>
         <div class="header__container" aria-label="header container">
           <div class="header__info" aria-label="header info">
             <div class="header__box" aria-label="header box">
               <div class="header__icon" aria-label="header icon">
-                <img src="assets/webp/phone.svg" alt="#">
+                <img src="assets/icon/phone.svg" alt="#">
               </div>
               <a href="tel:8 (111) 222-33-44" class="header__value">
                 8 (111) 222-33-44
@@ -34,7 +35,7 @@
             </div>
             <div class="header__box" aria-label="header box">
               <div class="header__icon" aria-label="header icon">
-                <img src="assets/webp/Frame.svg" alt="#">
+                <img src="assets/icon/Frame.svg" alt="#">
               </div>
               <div class="header__value">
                 Пн-Пт 10:00-18:00
@@ -42,7 +43,7 @@
             </div>
             <div class="header__box" aria-label="header box">
               <div class="header__icon" aria-label="header icon">
-                <img src="assets/webp/mail.svg" alt="">
+                <img src="assets/icon/mail.svg" alt="">
               </div>
               <a href="mailto:order@buhone.ru" class="header__value">
                 order@buhone.ru
@@ -50,7 +51,7 @@
             </div>
             <div class="header__box" aria-label="header box">
               <div class="header__icon" aria-label="header icon">
-                <img src="assets/webp/loc.svg" alt="">
+                <img src="assets/icon/loc.svg" alt="">
               </div>
               <address class="header__value" aria-label="header value">
                 Невский пр. 130
@@ -81,7 +82,101 @@
     </div>
   </header>
 
+  <section class="main" aria-label="main section">
+    <div class="main__swiper swiper" aria-label="main swiper">
+      <div class="swiper-wrapper" aria-label="swiper">
+        <div class="promo__slide swiper-slide" aria-label="promo slide">
+          <div class="promo__bg" aria-label="promo bg">
+            <img src="assets/webp/main.webp" alt="#">
+          </div>
+          <div class="container">
+            <div class="main__wrap" aria-label="promo wrap">
+              <div class="main__title title" aria-label="main title">Бухгалтерские услуги
+                в Санкт-Петербурге</div>
+              <button class="main__btn btn" aria-label="main button">Наша презентация</button>
+            </div>
+          </div>
+        </div>
+        <div class="promo__slide swiper-slide" aria-label="promo slide">
+          <div class="promo__bg" aria-label="promo bg">
+            <img src="assets/webp/moscow.webp" alt="#">
+          </div>
+          <div class="container">
+            <div class="main__wrap" aria-label="promo wrap">
+              <div class="main__title title" aria-label="main title">Бухгалтерские услуги
+                в Москве</div>
+              <button class="main__btn btn" aria-label="main button">Наша презентация</button>
+            </div>
+          </div>
+        </div>
+        <div class="promo__slide swiper-slide" aria-label="promo slide">
+          <div class="promo__bg" aria-label="promo bg">
+            <img src="assets/webp/vladivostok.webp" alt="#">
+          </div>
+          <div class="container">
+            <div class="main__wrap" aria-label="promo wrap">
+              <div class="main__title title" aria-label="main title">Бухгалтерские услуги
+                в Владивостоке</div>
+              <button class="main__btn btn" aria-label="main button">Наша презентация</button>
+            </div>
+          </div>
+        </div>
+        <div class="promo__slide swiper-slide" aria-label="promo slide">
+          <div class="promo__bg" aria-label="promo bg">
+            <img src="assets/webp/kailk.webp" alt="#">
+          </div>
+          <div class="container">
+            <div class="main__wrap" aria-label="promo wrap">
+              <div class="main__title title" aria-label="main title">Бухгалтерские услуги
+                в Калининграде</div>
+              <button class="main__btn btn" aria-label="main btn">Наша презентация</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__bottom" aria-label="main bottom">
+      <div class="container">
+        <nav class="main__nav" aria-label="main navigation">
+          <div class="swiper-pagination swiper-pagination_white" aria-label="swiper pagination"></div>
+          <div class="arrows arrows_white" aria-label="arrows">
+            <div class="arrow arrow__prev" aria-label="arrows prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g clip-path="url(#clip0_2_32)">
+                  <path
+                    d="M4.56397 7.49961L11.3382 0.725363C11.5048 0.558757 11.5048 0.29156 11.3382 0.124954C11.1716 -0.0416514 10.9044 -0.0416514 10.7378 0.124954L3.66179 7.20097C3.49518 7.36758 3.49518 7.63478 3.66179 7.80138L10.7378 14.8743C10.8195 14.956 10.9296 15 11.0364 15C11.1433 15 11.2533 14.9591 11.3351 14.8743C11.5017 14.7077 11.5017 14.4405 11.3351 14.2739L4.56397 7.49961Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_32">
+                    <rect width="15" height="15" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </div>
+            <div class="arrow arrow__next" aria-label="arrows next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <g clip-path="url(#clip0_2_50)">
+                  <path
+                    d="M10.436 7.50039L3.66175 14.2746C3.49515 14.4412 3.49515 14.7084 3.66175 14.875C3.82836 15.0417 4.09555 15.0417 4.26216 14.875L11.3382 7.79903C11.5048 7.63242 11.5048 7.36522 11.3382 7.19862L4.26216 0.125741C4.18043 0.0440098 4.0704 6.46293e-07 3.96352 6.55637e-07C3.85665 6.6498e-07 3.74662 0.0408666 3.66489 0.125741C3.49829 0.292346 3.49829 0.559543 3.66489 0.726148L10.436 7.50039Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_50">
+                    <rect width="15" height="15" fill="white" transform="translate(15 15) rotate(180)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/index.js"></script>
 
 </html>
