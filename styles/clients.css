@@ -1,0 +1,53 @@
+.clients {
+  padding: 100px 0 100px;
+}
+
+.bg-gray {}
+
+
+
+.clients__caption {}
+
+.caption {}
+
+.clients__title {}
+
+
+
+.clients__swiper {
+  margin: 80px 0 50px;
+}
+
+.swiper {}
+
+.swiper-wrapper {}
+
+.clients__slide {}
+
+.swiper-slide {}
+
+.clients__logo {}
+
+.clients__nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.swiper-pagination {
+  left: 0;
+  bottom: 0;
+  position: relative;
+  width: auto;
+  display: flex;
+  gap: 40px;
+
+}
+
+.arrows {}
+
+.arrow {}
+
+.arrow__prev {}
+
+.arrow__next {}
