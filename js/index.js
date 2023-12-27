@@ -8,6 +8,7 @@ var swiper = new Swiper(".main__swiper", {
     prevEl: ".main .arrow__prev",
   },
 });
+
 var swiper = new Swiper(".clients__swiper", {
   slidesPerView: 4,
   spaceBetween: 30,
@@ -36,5 +37,16 @@ var swiper = new Swiper(".clients__swiper", {
       slidesPerView: 4,
       spaceBetween: 30,
     },
+  },
+});
+
+var swiperReviews = new Swiper(".reviews__swiper", {
+  pagination: {
+    el: ".reviews .swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".reviews .arrow__next",
+    prevEl: ".reviews .arrow__prev",
   },
 });
