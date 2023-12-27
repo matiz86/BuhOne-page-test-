@@ -85,6 +85,22 @@ img {
   transition: all .3s;
 }
 
+.field {
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #BDBDBD;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 138%;
+  padding: 15px 0;
+  transition: all .3s;
+  width: 100%;
+  resize: none;
+}
+
 .btn:hover {
   background-color: #097ed1;
   transition: all .3s;
