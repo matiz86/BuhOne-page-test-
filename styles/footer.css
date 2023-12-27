@@ -1,0 +1,23 @@
+.footer {
+  padding: 40px 0 40px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 138%;
+}
+
+.footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-main-black);
+}
+
+.footer__developer {
+  display: block;
+  color: var(--color-main-black);
+}
+
+.footer__developer:hover {
+  transition: all .3s;
+  opacity: .7;
+}

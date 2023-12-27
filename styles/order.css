@@ -64,6 +64,11 @@
   font-size: 21px;
   font-weight: 300;
   line-height: 124%;
+  transition: all .3s;
+}
+.order__link:hover {
+  opacity: .7;
+  transition: all .3s;
 }
 
 .order__form {
