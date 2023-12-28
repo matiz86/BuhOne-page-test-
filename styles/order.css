@@ -42,13 +42,7 @@
   gap: 15px;
 }
 
-.order__icon-mail {
-  width: 39.421px;
-  height: 30px;
-}
-
 .order__icon {
-  width: 17.427px;
   height: 30px;
 }
 
@@ -66,6 +60,7 @@
   line-height: 124%;
   transition: all .3s;
 }
+
 .order__link:hover {
   opacity: .7;
   transition: all .3s;

@@ -29,9 +29,9 @@ var swiper = new Swiper(".clients__swiper", {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
     },
     1010: {
       slidesPerView: 4,
